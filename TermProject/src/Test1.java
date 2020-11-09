@@ -15,7 +15,7 @@ public class Test1 {
 		//N개의 배열을 생성한 뒤 임의의 랜덤 데이터를 할당
 	    int[] arr = new int[n];
 	    for (int i = 0; i < arr.length; i++) {
-	        arr[i] = rd.nextInt(100);
+	        arr[i] = rd.nextInt();
 	    }
 	    
 	    //a 구간에 해당하는 데이터의 최소값, 최대값, 합계를 출력
